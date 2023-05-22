@@ -1,14 +1,17 @@
 # VK News Feed
-VKontakte news feed application where various JSON APIs are used directly from the VKontakte server.
-A user can scroll his news feed, expand text in posts, scroll photos with beautiful custom horizontal layout, refresh to get new posts.
+VKontakte news feed application where various JSON APIs are used directly from the VKontakte server.  
+A user can scroll his news feed, expand text in posts, scroll photos with the beautiful custom horizontal layout, refresh the feed to get new posts.
 
 ## Technologies 
 - Clean Swift Architecture
-- VK SDK (User Authorization/Registration, VK SDK API)
+- VK SDK 1.3.8 (User Authorization/Registration, VK SDK API)
+- Carthage
+- Asynchronous Loading and Caching Images
+
+About layout:
 - Manual layout with Frames in UITableViewCells
 - Auto Layout Programmatically (NSLayoutAnchor and Anchor Extension)
 - UITableViewCells dynamic resizing
-- Asynchronous Loading and Caching Images
 - Nested UICollectionViews Custom Layout
 
 ## Overview 
